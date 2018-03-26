@@ -244,7 +244,7 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger('LightGBM')
 
-    setup(name='lightgbm',
+    setup(name='lightgbm-less-opt',
           version=version,
           description='LightGBM Python Package',
           long_description=open('README.rst').read(),
